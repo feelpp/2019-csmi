@@ -1,6 +1,6 @@
 #include <iostream>
 #include <stdlib.h>
-
+#include <classe.hpp>
 // Fib
 int f(int n){
 
@@ -22,6 +22,7 @@ int g(int n){
 int main(int argc, char** argv )
 {
   std::cout << "Hello " << getenv("USER") << " !" << std::endl;
+  Personnage p1;
   // test
   std::cout << "Fib**2:" <<std::endl;
   for (int i = 0; i < 10; i++){
