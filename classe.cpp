@@ -1,8 +1,10 @@
-class Personnage
-{
-    int m_vie;
-    int m_mana;
+#include <iostream>
+#include "classe.hpp"
+#include <string>
 
-    string m_nomArme;
-    int m_degatsArme;
-};
+
+int main()
+{
+	Personnage p1;
+	
+}
