@@ -20,4 +20,5 @@ int main(int argc, char** argv )
   for (int i = 0; i < 10; i++){
     std::cout << g(f(i)) << std::endl;
   }
+  std::cout << "Ca marche!" <<std::endl;
 }
