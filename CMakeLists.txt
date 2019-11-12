@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.10)
 # set the project name
 project(toto VERSION 1.0.0)
 
-find_package (Eigen3 3.3 REQUIRED NO_MODULE)
+find_package (Eigen3  REQUIRED NO_MODULE)
 
 # add the executable
 add_executable(toto toto.cpp)
@@ -32,7 +32,10 @@ set(CPACK_SOURCE_GENERATOR "TGZ;ZIP")
 set(CPACK_SOURCE_IGNORE_FILES
     /.git
     /dist
+    /toto.o
     /.*build.*
+    /hello
+    /src/hello
     /\\\\.DS_Store
 )
 include(CPack)
