@@ -10,4 +10,4 @@ addons:
       - libeigen3-dev
       - python-numpy
 script:
-  mkdir build && cd build && cmake .. && make && make test
+  mkdir build && cd build && cmake .. && make && ctest
