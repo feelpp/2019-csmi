@@ -10,7 +10,7 @@ add_executable(toto toto.cpp)
 target_link_libraries (toto Eigen3::Eigen)
 
 find_package (Python COMPONENTS Interpreter Development)
-install(TARGETS toto )
+install(TARGETS toto DESTINATION bin )
 
 if(CMAKE_PROJECT_NAME STREQUAL PROJECT_NAME)
     include(CTest)
