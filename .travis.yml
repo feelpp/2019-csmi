@@ -6,5 +6,7 @@ addons:
     packages:
       - cmake-data
       - cmake
+      - libeigen3-dev
+      - python-numpy
 script:
   mkdir build && cd build && cmake .. && make && make test
