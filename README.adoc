@@ -1,5 +1,6 @@
 = 2019 CSMI
 
+image:https://travis-ci.org/feelpp/2019-csmi.svg?branch=master["Build Status", link="https://travis-ci.org/feelpp/2019-csmi"]
 
 ceci est un test pour pull request
 
